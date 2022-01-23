@@ -1,0 +1,53 @@
+django-admin startproject <project-name>
+python manage.py startapp <app-name>
+
+python manage.py runserver
+
+python manage.py makemigrations
+python manage.py migrate
+
+python manage.py createsuperuser
+
+url
+csfr_token
+extends
+block	endblock
+
+Topics
+class-based views
+	mixins
+function-based views
+
+CRUD
+model form
+	form based on values
+create
+save
+add
+remove
+
+Ordering
+created
+updated
+-
+
+icontains
+contains
+topic__name__contains	search in parent node
+starts with
+ends with
+
+Reserved keywords:
+login
+
+All children
+attribute_set.all()
+
+Many to Many
+related_name
+
+
+Research:
+RESTful API
+MVC model
+Cross Origin Resource Sharing (CORS)
